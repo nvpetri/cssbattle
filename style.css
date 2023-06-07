@@ -1,0 +1,9 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.links> a{
+    font-size: 50px;
+    color: tomato;
+}

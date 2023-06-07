@@ -1,0 +1,24 @@
+ *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* Usei o seletor universal para resetar a página */
+
+body{
+    background-color: #62374e;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    place-items: center;
+}
+/* Utilizei o display grid e o grid template columns para definir o método de posicionamento e as posições iniciais, também foi definido o tamanho que o body irá ocupar na tela.
+Defini a cor de fundo e centralizei os itens da página além de adicionar um margem para não ficar colado nas 'paredes do site' já apontando a distância que um quadrado ficara do outro*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background: #fdc57b;
+}
+/* Defini as propriedades de tamanho e cor dos quadrados chamando a tag DIV e adicionando os critérios á ela modificando todos os quadrados de uma vez pois todos são uma DIV */
