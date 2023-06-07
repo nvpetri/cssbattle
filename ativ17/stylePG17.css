@@ -4,3 +4,78 @@
     box-sizing: border-box;
 }
  /* Usei o seletor universal para resetar a página */
+
+body{
+    display: grid;
+    place-content: center;
+    background-color: #09042A;
+}
+
+div{
+    margin-top: 100px;
+    width: 60vw;
+    height: 70vh;
+    display: grid;
+    place-content: center;
+}
+.quadrado1{
+    background-color: #E78481;
+    width: 30vw;
+    height: 15vh;
+    margin-bottom: -170px;
+    margin-top: 700px;
+}
+.circulo1{
+    width: 12vw;
+    height: 25vh;
+    background-color: #F5BB9C;
+    border-color: #09042A;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 300px;
+    margin-left: 130px;
+    z-index: 1;
+}
+.circulo2{
+    width: 12vw;
+    height: 24vh;
+    background-color: #F5BB9C;
+    border-color: #09042A;
+    border-style: solid;
+    border-width: 16px;
+    border-radius: 300px;
+    margin-top: -500px;
+    margin-left: 130px;
+    z-index: 1;
+}
+.circulo3{
+    width: 12.5vw;
+    height: 25vh;
+    background-color: #09042A;
+    border-color: #E78481;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 300px;
+    
+}
+.circulo3{
+    width: 12.5vw;
+    height: 25vh;
+    background-color: #09042A;
+    border-color: #E78481;
+    border-style: solid;
+    border-width: 25px;
+    border-radius: 300px;
+    margin-top: -373px;
+    margin-left: -56px;
+}
+.circulo4{
+    
+    width: 12.5vw;
+    height: 25vh;
+    background-color: #09042A;
+    border-color: #E78481;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 300px;
+}
