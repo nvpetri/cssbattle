@@ -10,6 +10,7 @@ body{
     place-content: center;
     background-color: #09042A;
 }
+/* Selecionei o corpo da página apliquei a cor de fundo e adicionei as propriedades para posicionar a div */
 
 div{
     margin-top: 100px;
@@ -18,6 +19,8 @@ div{
     display: grid;
     place-content: center;
 }
+/* Defini a posição da div e o tamanho dela, também defini o método em que os itens seriam colocados na div */
+
 .quadrado1{
     background-color: #E78481;
     width: 25vw;
@@ -25,6 +28,8 @@ div{
     margin-bottom: -170px;
     margin-top: 300px;
 }
+/* Defini o tamanho, posição e cor do primeiro quadrado que causa a ilusão da imagem */
+
 .circulo1{
     width: 12vw;
     height: 25vh;
@@ -36,6 +41,8 @@ div{
     margin-left: 130px;
     z-index: 1;
 }
+/* Defini a posição no plano de profundidade da pagina, tamanho, bordas e cor */
+
 .circulo2{
     width: 12vw;
     height: 24vh;
@@ -48,6 +55,8 @@ div{
     margin-left: 130px;
     z-index: 1;
 }
+/* Defini a posição no plano de profundidade da pagina, tamanho, bordas e cor */
+
 .circulo3{
     width: 12.5vw;
     height: 25vh;
@@ -55,9 +64,10 @@ div{
     border-color: #E78481;
     border-style: solid;
     border-width: 20px;
-    border-radius: 300px;
-    
+    border-radius: 300px;   
 }
+/* Defini a posição no plano de profundidade da pagina, tamanho, bordas e cor */
+
 .circulo3{
     width: 12.5vw;
     height: 25vh;
@@ -69,6 +79,8 @@ div{
     margin-top: -373px;
     margin-left: -56px;
 }
+/* Defini a posição no plano de profundidade da pagina, tamanho, bordas e cor */
+
 .circulo4{
     width: 12.5vw;
     height: 25vh;
@@ -80,3 +92,4 @@ div{
     margin-top: -77%;
     margin-left: 65%;
 }
+/* Defini a posição no plano de profundidade da pagina, tamanho, bordas e cor */
