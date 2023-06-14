@@ -20,10 +20,10 @@ div{
 }
 .quadrado1{
     background-color: #E78481;
-    width: 30vw;
+    width: 25vw;
     height: 15vh;
     margin-bottom: -170px;
-    margin-top: 700px;
+    margin-top: 300px;
 }
 .circulo1{
     width: 12vw;
@@ -70,7 +70,6 @@ div{
     margin-left: -56px;
 }
 .circulo4{
-    
     width: 12.5vw;
     height: 25vh;
     background-color: #09042A;
@@ -78,4 +77,6 @@ div{
     border-style: solid;
     border-width: 20px;
     border-radius: 300px;
+    margin-top: -77%;
+    margin-left: 65%;
 }
